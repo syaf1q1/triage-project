@@ -69,15 +69,25 @@ ollama run hf.co/syafiq11/Llama-3.1-8B-triage-syafiq11-GGUF:Q4_K_M
 - **Run:** 1795741468, 1 h 12 min, final training loss 0.0003; evaluation loss fell from about 0.020 (step 118) to about 0.003 (step 357) with no sign of overfitting.
 
 ## Evaluation
-Course leaderboard test set: 100 held-out messages (24 standard, 76 hard).
+Ollama, temperature 0, same system prompt; this model is the GGUF Q4_K_M of run 1795741468. No test message was used in training.
 
-| Model | All three correct | Category | Urgency | needs_human recall | JSON only |
-|---|---|---|---|---|---|
-| Llama 3.1 8B Instruct (untuned) | 31% | 84% | 40% | 95% | 9% |
-| **This model** | see leaderboard (pending) | | | | |
+**100 course leaderboard messages**
+
+| Model | All three correct | Category | Urgency | needs_human recall | needs_human precision | JSON only |
+|---|---|---|---|---|---|---|
+| Llama 3.1 8B Instruct (untuned) | 31% | 84% | 40% | 95% | 58% | 9% |
+| **This model** | **71%** | 92% | 90% | 73% | 87% | 99% |
+
+The leaderboard had closed, so these are scored with our own labels written with the course labelling guide, not the instructor's official key. Check: with the same labels, the untuned model's official answers get exactly the numbers on the official baseline scorecard.
+
+**50 course test messages (official labels):** 94% all three correct (47/50), category 100%, urgency 94%, needs_human recall 95%, JSON only 100%.
+
+Full reports and error analysis: see the GitHub repository. Course leaderboard model number: 1795741468.
 
 ## Limitations and risks
 - Fewer training examples in Chinese, Tamil, Hindi, Spanish and French than in English and Malay; other languages are untested.
+- Often misses the rule "refund overdue by more than 14 days → needs a person", so needs_human recall (73%) is lower than the untuned model's (95%).
+- Weak at date arithmetic for deadlines and at messages with several issues.
 - Urgency often depends on date arithmetic and contact counts in the message, which can be wrong.
 - Not for decisions without human review: a missed high-urgency safety message could cause harm.
 

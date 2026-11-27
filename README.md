@@ -38,14 +38,19 @@ My parcel never arrived and I was charged twice.
 The labelling rules are in the course's labelling guide (summarised in [Dataset](#dataset)).
 
 ## Results
-Measured on the course leaderboard test set: 100 held-out messages (24 standard, 76 hard), none of them used in training.
+Measured on the **100 course leaderboard messages** (none used in training), Ollama, temperature 0, same system prompt. Our model is the published GGUF Q4_K_M of run **1795741468**.
 
-| Model | All three correct | Category | Urgency | needs_human recall | JSON only |
-|---|---|---|---|---|---|
-| Llama 3.1 8B Instruct (untuned, Ollama 4-bit) | 31% | 84% | 40% | 95% | 9% |
-| **Llama-3.1-8B-triage-syafiq11** | see leaderboard (pending) | | | | |
+| Model | All three correct | Category | Urgency | needs_human recall | needs_human precision | JSON only |
+|---|---|---|---|---|---|---|
+| Llama 3.1 8B Instruct (untuned, Ollama 4-bit) | 31% | 84% | 40% | 95% | 58% | 9% |
+| **Llama-3.1-8B-triage-syafiq11** | **71%** | 92% | 90% | 73% | 87% | 99% |
+| Change | **+40 points** | +8 | +50 | −22 | +29 | +90 |
 
-The base model numbers come from the class baseline scorecard ([`results/baseline_scorecard.md`](results/baseline_scorecard.md)): Ollama `llama3.1:latest`, temperature 0, the same system prompt, no examples. One message is 1 point; differences of a few points can be luck.
+**How this was scored.** The leaderboard had closed before this model was submitted, and the official answers are held by the instructor. We therefore labelled the 100 messages ourselves with the course labelling guide ([`data/leaderboard_labels_ours.jsonl`](data/leaderboard_labels_ours.jsonl)) and scored with the course `score.py`. As a check, the same labels give the untuned model's official answers **exactly** the numbers on the official baseline scorecard (31%, 84%, 40%, 59%, 95%, 58%, 99%, 9%), so they agree with the official key on every measure we can check. They are still our labels, not the official key. Full report: [`results/leaderboard_report.md`](results/leaderboard_report.md).
+
+A second check on the 50 labelled class test messages (`data/test_raw.jsonl`, official labels): **94%** all three correct (47/50), category 100%, urgency 94%, needs_human recall 95%, JSON only 100% ([`results/report.md`](results/report.md)).
+
+One message is 1 point on the 100-message set and 2 points on the 50-message set, so differences of a few points can be luck. Leaderboard model number: **1795741468**.
 
 ## Quick start
 Use the system prompt in [`data/system_prompt.txt`](data/system_prompt.txt) and temperature 0.
@@ -203,11 +208,25 @@ Serve the model (for example with Ollama as above), then run:
 cd scripts
 python auto_eval.py --test ../data/test_raw.jsonl --ollama triage --out ../results
 ```
-The base model scorecard is in [`results/`](results/). The fine-tuned model's report and predictions will be added there after evaluation (pending).
+Commands used (Ollama model built from [`serving/Modelfile`](serving/Modelfile)):
+```bash
+cd scripts
+python auto_eval.py --test ../data/test_raw.jsonl --ollama triage --out ../results
+python predict.py --questions ../data/leaderboard_test_100_messages.xlsx --ollama triage --out ../results/leaderboard_predictions.jsonl
+python score.py --gold ../data/leaderboard_labels_ours.jsonl --pred base=../results/leaderboard_baseline_predictions.jsonl --pred tuned=../results/leaderboard_predictions.jsonl --out ../results
+```
 
-**Error analysis**
+**Error analysis (100 leaderboard messages, 29 wrong).**
 
-Pending: to be filled in from the fine-tuned model's predictions.
+| Kind of mistake | Count | Example | What went wrong |
+|---|---|---|---|
+| Refund overdue more than 14 days, but `needs_human` false | 10 | "My refund is 15 days overdue. I have not written about it before." | The model gets category and urgency right but misses the "overdue > 14 days → a person" rule. This is the main reason recall fell to 73%. |
+| Deadline arithmetic | 6 | "I need the standing fan for my daughter's party on 1 June. Today is 29 May." → said high; 3 days away is medium | Counting days between two dates, both ways (missed "trip in 2 days", over-flagged 3–4 days away). |
+| Two or three issues in one message | 4 | "How do I change my email address? Also, my parcel is two weeks late." → said account_access | Picked the first issue instead of the one with higher urgency. |
+| "Charged twice, one order" | 2 | Q009, Q017 → said high | Treated a double charge as "money taken with no order"; the guide (and the official key) make it medium. |
+| Other | 7 | Q001 gave three JSON objects (one per issue), so the answer was unreadable; Q046 phishing email and Q069 invoice request put in account_access; Q026 a compliment put in delivery; Q040 a repeat message not flagged; Q094 a refund exactly 14 days late flagged for a person; Q092 a request rated medium | |
+
+On the 50 class test messages the 3 mistakes were all urgency ("charged but no order" missed as medium; a forgotten-email question rated low; a 1-star-review threat rated high).
 
 ## Repository structure
 ```
@@ -217,14 +236,16 @@ Pending: to be filled in from the fine-tuned model's predictions.
 ├── requirements.txt
 ├── assets/       training curves and screenshot
 ├── config/       training settings
-├── data/         datasets and system prompt
-├── scripts/      data preparation, data check, evaluation
+├── data/         datasets, system prompt, our labels for the 100 leaderboard messages
+├── scripts/      data preparation, data check, evaluation, leaderboard predictions
 ├── serving/      Ollama Modelfile
 ├── huggingface/  model card and licence files uploaded to Hugging Face
-└── results/      baseline scorecard and reports
+└── results/      baseline scorecard, our evaluation report and predictions
 ```
 
 ## Limitations
+- It often misses the rule "refund overdue by more than 14 days → needs a person" (10 of 100 leaderboard messages), so `needs_human` recall (73%) is lower than the untuned model's (95%): some customers who need a person would not be flagged.
+- Date arithmetic for deadlines and overdue refunds, and messages with several issues, are its other weak points.
 - Of the 787 added training rows, about 513 are English and 119 Malay/Manglish; Chinese, Spanish, Tamil, Hindi/Hinglish and French have only 20–40 each (rough count by script and keywords), so those languages are likely weaker. Languages not in the data (for example German) are untested.
 - Urgency depends on dates and counts inside the message ("refund due on 1 May, today is 22 May"); date arithmetic is a known weak point of small models.
 - Messages that mix two or three issues must follow the "higher urgency first" rule, which the model can get wrong.

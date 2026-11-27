@@ -1,0 +1,48 @@
+{
+  "n": 50,
+  "missing": [],
+  "summary": {
+    "all": {
+      "n": 50,
+      "valid_json": 1.0,
+      "json_only": 1.0,
+      "category_acc": 1.0,
+      "urgency_acc": 0.94,
+      "needs_human_acc": 0.96,
+      "needs_human_recall": 0.9473684210526315,
+      "needs_human_precision": 0.9473684210526315,
+      "exact_match": 0.94
+    },
+    "standard": {
+      "n": 30,
+      "valid_json": 1.0,
+      "json_only": 1.0,
+      "category_acc": 1.0,
+      "urgency_acc": 0.9333333333333333,
+      "needs_human_acc": 0.9666666666666667,
+      "needs_human_recall": 0.9090909090909091,
+      "needs_human_precision": 1.0,
+      "exact_match": 0.9333333333333333
+    },
+    "hard": {
+      "n": 20,
+      "valid_json": 1.0,
+      "json_only": 1.0,
+      "category_acc": 1.0,
+      "urgency_acc": 0.95,
+      "needs_human_acc": 0.95,
+      "needs_human_recall": 1.0,
+      "needs_human_precision": 0.8888888888888888,
+      "exact_match": 0.95
+    }
+  },
+  "invalid_reasons": {},
+  "urgency_confusion": {
+    "high->high": 13,
+    "high->medium": 1,
+    "low->low": 16,
+    "medium->high": 1,
+    "medium->low": 1,
+    "medium->medium": 18
+  }
+}
