@@ -118,7 +118,7 @@ curl http://localhost:8000/v1/chat/completions -H "Content-Type: application/jso
 
 | Split | File | Examples | Source | Languages |
 |---|---|---|---|---|
-| Train | [`data/train_chat_v6_merged.jsonl`](data/train_chat_v6_merged.jsonl) (chat format) · [`data/train_flat_v6_merged.jsonl`](data/train_flat_v6_merged.jsonl) (flat) | 994 | 157 class rows (`train_raw.jsonl`), 50 class rows (`data_starter.xlsx`, S001–S050), 787 rows added for this project | English, Malay, Manglish, Chinese, Tamil, Hindi/Hinglish, Spanish, French |
+| Train | [`data/train_chat_v6_merged.jsonl`](data/train_chat_v6_merged.jsonl) (chat format) | 994 | 157 class rows (`train_raw.jsonl`), 50 class rows (`data_starter.xlsx`, S001–S050), 787 rows added for this project | English, Malay, Manglish, Chinese, Tamil, Hindi/Hinglish, Spanish, French |
 | Test (class, labelled) | [`data/test_raw.jsonl`](data/test_raw.jsonl) | 50 (30 standard, 20 hard) | class data | English, Malay |
 | Leaderboard test | [`data/leaderboard_test_100_messages.xlsx`](data/leaderboard_test_100_messages.xlsx) | 100 (24 standard, 76 hard) | class data, labels held by the instructor | mixed |
 
@@ -141,7 +141,7 @@ curl http://localhost:8000/v1/chat/completions -H "Content-Type: application/jso
 ```json
 {"messages": [{"role": "system", "content": "..."}, {"role": "user", "content": "..."}, {"role": "assistant", "content": "{\"category\": \"delivery\", \"urgency\": \"low\", \"needs_human\": false}"}]}
 ```
-Flat file and test file, one object per line:
+Class files (`train_raw.jsonl`, `test_raw.jsonl`), one object per line:
 ```json
 {"id": "T001", "message": "...", "category": "delivery", "urgency": "low", "needs_human": false}
 ```
@@ -198,7 +198,7 @@ Training loss drops from about 0.56 to near zero within the first 30 steps, then
 git clone https://github.com/syaf1q1/triage-project.git
 cd triage-project
 pip install -r requirements.txt
-python scripts/check_dataset.py --train data/train_flat_v6_merged.jsonl --test data/test_raw.jsonl
+python scripts/check_dataset.py --train data/train_raw.jsonl --test data/test_raw.jsonl
 ```
 Then in Unsloth Studio: **Train → Configure**, base model `unsloth/Llama-3.1-8B-Instruct-unsloth-bnb-4bit`, method QLoRA, upload `data/train_chat_v6_merged.jsonl`, and use the settings in the table above (also in [`config/training_settings.md`](config/training_settings.md)).
 
