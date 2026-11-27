@@ -1,0 +1,10 @@
+.env
+*.gguf
+*.safetensors
+*.bin
+checkpoint-*/
+outputs/
+__pycache__/
+.vscode/
+.ipynb_checkpoints/
+model/

@@ -1,0 +1,157 @@
+{"id": "T001", "message": "Can I change the delivery address for order OS-20431? I have not received the shipping email yet.", "category": "delivery", "urgency": "low", "needs_human": false}
+{"id": "T002", "message": "How many days does standard delivery take to Kota Kinabalu?", "category": "delivery", "urgency": "low", "needs_human": false}
+{"id": "T003", "message": "Do you deliver on Saturdays?", "category": "delivery", "urgency": "low", "needs_human": false}
+{"id": "T004", "message": "Tracking says in transit since this morning. Is that normal for an order placed yesterday?", "category": "delivery", "urgency": "low", "needs_human": false}
+{"id": "T005", "message": "Can I collect my order from a store instead of home delivery?", "category": "delivery", "urgency": "low", "needs_human": false}
+{"id": "T006", "message": "Please deliver after 6pm, nobody is home during the day.", "category": "delivery", "urgency": "low", "needs_human": false}
+{"id": "T007", "message": "Hello, is there a delivery fee for orders above RM150?", "category": "delivery", "urgency": "low", "needs_human": false}
+{"id": "T008", "message": "Can the courier call me before delivering? My gate has a locked guard post.", "category": "delivery", "urgency": "low", "needs_human": false}
+{"id": "T009", "message": "Can deliver to office address ah? Which one is faster, express or normal?", "category": "delivery", "urgency": "low", "needs_human": false}
+{"id": "T010", "message": "My order was supposed to arrive on Monday. It is Thursday and the tracking has not moved.", "category": "delivery", "urgency": "medium", "needs_human": false}
+{"id": "T011", "message": "The courier marked my parcel as delivered but I received nothing. Please check.", "category": "delivery", "urgency": "medium", "needs_human": false}
+{"id": "T012", "message": "I received only 2 of the 3 items in order OS-30277. The box was sealed.", "category": "delivery", "urgency": "medium", "needs_human": false}
+{"id": "T013", "message": "The parcel was left outside the gate in the rain and the box is soaked. Items look fine but please note it.", "category": "delivery", "urgency": "medium", "needs_human": false}
+{"id": "T014", "message": "Third time writing about my missing parcel. Nobody has replied to me.", "category": "delivery", "urgency": "medium", "needs_human": true}
+{"id": "T015", "message": "Order OS-18820 is delayed again. I have asked twice already and was told 3 days. It has been 9.", "category": "delivery", "urgency": "medium", "needs_human": true}
+{"id": "T016", "message": "The courier returned my parcel to your warehouse because the label had the wrong unit number. How do I get it sent again?", "category": "delivery", "urgency": "medium", "needs_human": false}
+{"id": "T017", "message": "Tracking has shown 'out for delivery' for two days now.", "category": "delivery", "urgency": "medium", "needs_human": false}
+{"id": "T018", "message": "I was told to expect my fridge on the 12th. Nobody came and nobody called.", "category": "delivery", "urgency": "medium", "needs_human": false}
+{"id": "T019", "message": "My parcel went to my old address even though I updated it in my account last month.", "category": "delivery", "urgency": "medium", "needs_human": false}
+{"id": "T020", "message": "Wah my parcel still tak sampai, dah 8 hari. Boleh tolong check?", "category": "delivery", "urgency": "medium", "needs_human": false}
+{"id": "T021", "message": "Parcel saya sepatutnya sampai semalam, tapi tracking tak update langsung.", "category": "delivery", "urgency": "medium", "needs_human": false}
+{"id": "T022", "message": "I need the gift to arrive before my daughter's wedding on Saturday. Tracking has been stuck for 5 days and it is Thursday. Please help!", "category": "delivery", "urgency": "high", "needs_human": true}
+{"id": "T023", "message": "The courier says delivered, but my neighbour saw someone else sign for it using my name. I think it was taken. I want to make a report.", "category": "delivery", "urgency": "high", "needs_human": true}
+{"id": "T024", "message": "I must have the cooler bag for my insulin before I fly tomorrow morning and it still has not shipped.", "category": "delivery", "urgency": "high", "needs_human": true}
+{"id": "T025", "message": "My parcel has been missing for six weeks. I will go to the Tribunal for Consumer Claims if I do not hear back today.", "category": "delivery", "urgency": "high", "needs_human": true}
+{"id": "T026", "message": "The exam calculator I ordered for my son's paper on Monday has not arrived and it is Saturday night.", "category": "delivery", "urgency": "high", "needs_human": true}
+{"id": "T027", "message": "The order shows delivered to a parcel locker I never selected. Someone may have changed my address.", "category": "delivery", "urgency": "high", "needs_human": true}
+{"id": "T028", "message": "What is your return policy for shoes? I bought a pair yesterday.", "category": "refund_return", "urgency": "low", "needs_human": false}
+{"id": "T029", "message": "Can I return an item I opened but did not use?", "category": "refund_return", "urgency": "low", "needs_human": false}
+{"id": "T030", "message": "How do I start a return? I cannot find the button in the app.", "category": "refund_return", "urgency": "low", "needs_human": false}
+{"id": "T031", "message": "Do I pay for return shipping if I just changed my mind?", "category": "refund_return", "urgency": "low", "needs_human": false}
+{"id": "T032", "message": "How long do refunds usually take to reach my e-wallet?", "category": "refund_return", "urgency": "low", "needs_human": false}
+{"id": "T033", "message": "Is it possible to exchange a size M shirt for a size L?", "category": "refund_return", "urgency": "low", "needs_human": false}
+{"id": "T034", "message": "Can I return something I bought with a voucher? Do I get the voucher back?", "category": "refund_return", "urgency": "low", "needs_human": false}
+{"id": "T035", "message": "Cancel order OS-22091 please, I ordered by mistake. It has not shipped.", "category": "refund_return", "urgency": "low", "needs_human": false}
+{"id": "T036", "message": "Boleh return tak kalau dah buka plastik? Saya just nak tukar warna.", "category": "refund_return", "urgency": "low", "needs_human": false}
+{"id": "T037", "message": "Cancel order boleh tak? Belum hantar lagi kan?", "category": "refund_return", "urgency": "low", "needs_human": false}
+{"id": "T038", "message": "I returned my kettle 10 days ago and tracking shows it was received. When will I get my refund?", "category": "refund_return", "urgency": "medium", "needs_human": false}
+{"id": "T039", "message": "You approved my return but I have not got the return label yet.", "category": "refund_return", "urgency": "medium", "needs_human": false}
+{"id": "T040", "message": "I was refunded RM45 but the item cost RM65. Where is the rest?", "category": "refund_return", "urgency": "medium", "needs_human": false}
+{"id": "T041", "message": "The refund went to store credit but I asked for my card. Can you fix it?", "category": "refund_return", "urgency": "medium", "needs_human": false}
+{"id": "T042", "message": "My return was rejected because the box was 'damaged', but it was already damaged when you sent it.", "category": "refund_return", "urgency": "medium", "needs_human": false}
+{"id": "T043", "message": "Refund promised three weeks ago and still nothing. I have written twice already.", "category": "refund_return", "urgency": "medium", "needs_human": true}
+{"id": "T044", "message": "I sent back the blender 5 weeks ago. Your email said 7 days. Still no refund.", "category": "refund_return", "urgency": "medium", "needs_human": true}
+{"id": "T045", "message": "Return pickup failed twice because the rider did not come. I took leave to wait at home.", "category": "refund_return", "urgency": "medium", "needs_human": false}
+{"id": "T046", "message": "I got a refund for the wrong order, the one I wanted to keep.", "category": "refund_return", "urgency": "medium", "needs_human": false}
+{"id": "T047", "message": "The item arrived too late for the occasion, I would like to return it and get my money back.", "category": "refund_return", "urgency": "medium", "needs_human": false}
+{"id": "T048", "message": "I am still waiting for the RM1,200 refund for my cancelled laptop order. It has been 4 weeks.", "category": "refund_return", "urgency": "medium", "needs_human": true}
+{"id": "T049", "message": "Dah hantar balik barang 2 minggu lepas, refund macam mana ni? Duit tak masuk lagi.", "category": "refund_return", "urgency": "medium", "needs_human": false}
+{"id": "T050", "message": "Eh refund tak masuk lagi lah, ini dah 3 kali saya mesej korang!", "category": "refund_return", "urgency": "medium", "needs_human": true}
+{"id": "T051", "message": "You cancelled my order and now say the refund will take up to 60 days. I need this money for rent this week. If it is not back in 48 hours I will do a chargeback and report you.", "category": "refund_return", "urgency": "high", "needs_human": true}
+{"id": "T052", "message": "I returned a laptop worth RM3,800 two months ago and you keep saying the refund is processing. I am going to the consumer tribunal.", "category": "refund_return", "urgency": "high", "needs_human": true}
+{"id": "T053", "message": "The refund was sent to a bank account that is not mine. Please stop it immediately.", "category": "refund_return", "urgency": "high", "needs_human": true}
+{"id": "T054", "message": "The display on my rice cooker shows E3. What does that mean?", "category": "product_fault", "urgency": "low", "needs_human": false}
+{"id": "T055", "message": "There is a small scratch on the side of the monitor, it works fine. Is that normal?", "category": "product_fault", "urgency": "low", "needs_human": false}
+{"id": "T056", "message": "My headphones are a bit quiet on the left side only when the volume is low. Might be nothing.", "category": "product_fault", "urgency": "low", "needs_human": false}
+{"id": "T057", "message": "The colour of the sofa is a little different from the photo. Not a big issue, just feedback.", "category": "product_fault", "urgency": "low", "needs_human": false}
+{"id": "T058", "message": "How do I reset my smart plug? The light keeps blinking.", "category": "product_fault", "urgency": "low", "needs_human": false}
+{"id": "T059", "message": "The blender stopped working after 3 days. Can I get a replacement?", "category": "product_fault", "urgency": "medium", "needs_human": false}
+{"id": "T060", "message": "The phone arrived with a cracked screen. Photos attached.", "category": "product_fault", "urgency": "medium", "needs_human": false}
+{"id": "T061", "message": "The zip on my backpack broke the first time I used it.", "category": "product_fault", "urgency": "medium", "needs_human": false}
+{"id": "T062", "message": "My laptop will not charge. I tried two different chargers.", "category": "product_fault", "urgency": "medium", "needs_human": false}
+{"id": "T063", "message": "The air purifier makes a loud rattling noise since yesterday. It is under warranty.", "category": "product_fault", "urgency": "medium", "needs_human": false}
+{"id": "T064", "message": "The washing machine shows an error and will not drain. Installed 2 weeks ago. This is my second report.", "category": "product_fault", "urgency": "medium", "needs_human": true}
+{"id": "T065", "message": "The smartwatch battery drains in 3 hours. I reported it twice last week and got no answer.", "category": "product_fault", "urgency": "medium", "needs_human": true}
+{"id": "T066", "message": "The TV has a vertical line across the screen. Bought it a month ago.", "category": "product_fault", "urgency": "medium", "needs_human": false}
+{"id": "T067", "message": "The coffee machine leaks water from the bottom every time.", "category": "product_fault", "urgency": "medium", "needs_human": false}
+{"id": "T068", "message": "Aircond saya bocor air dalam bilik, baru pasang 2 minggu.", "category": "product_fault", "urgency": "medium", "needs_human": false}
+{"id": "T069", "message": "Phone ni suddenly mati total, tak boleh cas langsung. Still dalam warranty kan?", "category": "product_fault", "urgency": "medium", "needs_human": false}
+{"id": "T070", "message": "Earbuds saya sebelah kiri takde bunyi. Boleh claim warranty?", "category": "product_fault", "urgency": "medium", "needs_human": false}
+{"id": "T071", "message": "My phone charger got very hot and I saw smoke from the plug. I unplugged it right away.", "category": "product_fault", "urgency": "high", "needs_human": true}
+{"id": "T072", "message": "The electric kettle sparked when I switched it on and tripped the whole house. I am scared to use anything from this order.", "category": "product_fault", "urgency": "high", "needs_human": true}
+{"id": "T073", "message": "My baby's high chair collapsed while she was sitting in it. She is okay but the leg snapped clean off.", "category": "product_fault", "urgency": "high", "needs_human": true}
+{"id": "T074", "message": "The heater smells like burning plastic after 10 minutes. It is on a wooden floor.", "category": "product_fault", "urgency": "high", "needs_human": true}
+{"id": "T075", "message": "The extension cord melted at the plug. This is a fire risk, I want it recalled.", "category": "product_fault", "urgency": "high", "needs_human": true}
+{"id": "T076", "message": "The brand new power bank swelled up like a balloon after 2 charges.", "category": "product_fault", "urgency": "high", "needs_human": true}
+{"id": "T077", "message": "Charger ni panas gila, boleh bau hangus. Takut meletup.", "category": "product_fault", "urgency": "high", "needs_human": true}
+{"id": "T078", "message": "Which payment methods do you accept? Do you take instalments?", "category": "payment_billing", "urgency": "low", "needs_human": false}
+{"id": "T079", "message": "Can I get an invoice with my company name and SST number for order OS-27755?", "category": "payment_billing", "urgency": "low", "needs_human": false}
+{"id": "T080", "message": "Does the RM10 voucher work together with the free-shipping code?", "category": "payment_billing", "urgency": "low", "needs_human": false}
+{"id": "T081", "message": "My receipt shows RM159 but the app said RM149 before tax. Can you explain the difference?", "category": "payment_billing", "urgency": "low", "needs_human": false}
+{"id": "T082", "message": "Is it safe to save my card in the app?", "category": "payment_billing", "urgency": "low", "needs_human": false}
+{"id": "T083", "message": "Can I pay by bank transfer instead of card for a bulk order?", "category": "payment_billing", "urgency": "low", "needs_human": false}
+{"id": "T084", "message": "When will the 0% instalment promo end?", "category": "payment_billing", "urgency": "low", "needs_human": false}
+{"id": "T085", "message": "Do you charge a fee if I pay with a credit card?", "category": "payment_billing", "urgency": "low", "needs_human": false}
+{"id": "T086", "message": "Ada tak option bayar bulan-bulan? Nak beli washing machine.", "category": "payment_billing", "urgency": "low", "needs_human": false}
+{"id": "T087", "message": "Boleh dapat resit untuk claim office tak?", "category": "payment_billing", "urgency": "low", "needs_human": false}
+{"id": "T088", "message": "My card payment failed twice but I did not get charged. Can you check it went through or not?", "category": "payment_billing", "urgency": "medium", "needs_human": false}
+{"id": "T089", "message": "The promo code SAVE20 was not applied at checkout. I should get RM20 off.", "category": "payment_billing", "urgency": "medium", "needs_human": false}
+{"id": "T090", "message": "I was charged RM89 for shipping even though the page said free shipping.", "category": "payment_billing", "urgency": "medium", "needs_human": false}
+{"id": "T091", "message": "The e-wallet payment page keeps loading and then says 'session expired'.", "category": "payment_billing", "urgency": "medium", "needs_human": false}
+{"id": "T092", "message": "My instalment was billed on the 5th but the due date was the 15th.", "category": "payment_billing", "urgency": "medium", "needs_human": false}
+{"id": "T093", "message": "I was charged for a subscription I cancelled in March, and again this month. This is my third email.", "category": "payment_billing", "urgency": "medium", "needs_human": true}
+{"id": "T094", "message": "The invoice shows the wrong company name. I need it fixed for my claim.", "category": "payment_billing", "urgency": "medium", "needs_human": false}
+{"id": "T095", "message": "Your site charged the SST twice on the same item.", "category": "payment_billing", "urgency": "medium", "needs_human": false}
+{"id": "T096", "message": "I paid with a voucher but the full price was still charged to my card.", "category": "payment_billing", "urgency": "medium", "needs_human": false}
+{"id": "T097", "message": "My card statement shows a pending charge of RM60 from your shop for an order that was cancelled. Is it going to drop off?", "category": "payment_billing", "urgency": "medium", "needs_human": false}
+{"id": "T098", "message": "Kod promo tak boleh pakai, dia kata invalid. Kod ni dari email korang.", "category": "payment_billing", "urgency": "medium", "needs_human": false}
+{"id": "T099", "message": "I was charged RM2,499 but I never got an order confirmation and nothing is in my order history.", "category": "payment_billing", "urgency": "high", "needs_human": true}
+{"id": "T100", "message": "There are three charges on my card from your shop that I did not make. I have already blocked my card.", "category": "payment_billing", "urgency": "high", "needs_human": true}
+{"id": "T101", "message": "I was double charged RM799 and my account balance is now negative. I need it fixed today or the bank will fine me.", "category": "payment_billing", "urgency": "high", "needs_human": true}
+{"id": "T102", "message": "I see a payment of RM1,100 to your shop that I did not authorise. I think my card was cloned. I will report to the bank and the police.", "category": "payment_billing", "urgency": "high", "needs_human": true}
+{"id": "T103", "message": "You billed my card after I cancelled the order and then closed my case without a reply. I am disputing this with my bank now.", "category": "payment_billing", "urgency": "high", "needs_human": true}
+{"id": "T104", "message": "Bayar guna FPX tapi duit dah potong, order takde pun. Tolong check cepat.", "category": "payment_billing", "urgency": "high", "needs_human": true}
+{"id": "T105", "message": "How do I change the email address on my account?", "category": "account_access", "urgency": "low", "needs_human": false}
+{"id": "T106", "message": "Can I delete my account and my data?", "category": "account_access", "urgency": "low", "needs_human": false}
+{"id": "T107", "message": "Where can I update my phone number?", "category": "account_access", "urgency": "low", "needs_human": false}
+{"id": "T108", "message": "How do I turn off marketing emails?", "category": "account_access", "urgency": "low", "needs_human": false}
+{"id": "T109", "message": "Can I link my account to my e-wallet?", "category": "account_access", "urgency": "low", "needs_human": false}
+{"id": "T110", "message": "Is there a way to see my past orders from last year?", "category": "account_access", "urgency": "low", "needs_human": false}
+{"id": "T111", "message": "Can I have two delivery addresses saved in my account?", "category": "account_access", "urgency": "low", "needs_human": false}
+{"id": "T112", "message": "Why am I asked to verify my identity before a big order?", "category": "account_access", "urgency": "low", "needs_human": false}
+{"id": "T113", "message": "Macam mana nak tukar nombor phone dalam akaun?", "category": "account_access", "urgency": "low", "needs_human": false}
+{"id": "T114", "message": "I forgot my password and the reset email is not arriving.", "category": "account_access", "urgency": "medium", "needs_human": false}
+{"id": "T115", "message": "I cannot log in. It says my account is locked after too many tries.", "category": "account_access", "urgency": "medium", "needs_human": false}
+{"id": "T116", "message": "The verification code SMS never comes to my number.", "category": "account_access", "urgency": "medium", "needs_human": false}
+{"id": "T117", "message": "The app crashes right after I log in on my iPhone.", "category": "account_access", "urgency": "medium", "needs_human": false}
+{"id": "T118", "message": "Two accounts were created for me by mistake and my vouchers are split. Can you merge them?", "category": "account_access", "urgency": "medium", "needs_human": false}
+{"id": "T119", "message": "I changed my email but still cannot log in with the new one. This is the second time I am asking.", "category": "account_access", "urgency": "medium", "needs_human": true}
+{"id": "T120", "message": "I cannot log in with Google sign-in, it says no account found. I have ordered here before.", "category": "account_access", "urgency": "medium", "needs_human": false}
+{"id": "T121", "message": "My loyalty points disappeared after the app update. I had 4,200 points.", "category": "account_access", "urgency": "medium", "needs_human": false}
+{"id": "T122", "message": "The sign out of all devices button does nothing.", "category": "account_access", "urgency": "medium", "needs_human": false}
+{"id": "T123", "message": "The account page is blank, only a white screen, on Chrome.", "category": "account_access", "urgency": "medium", "needs_human": false}
+{"id": "T124", "message": "Lupa password lah, dah try reset tapi link tak masuk email.", "category": "account_access", "urgency": "medium", "needs_human": false}
+{"id": "T125", "message": "Can't login, ID kata akaun dikunci. Boleh unlock?", "category": "account_access", "urgency": "medium", "needs_human": false}
+{"id": "T126", "message": "I got emails that my password and email were changed. I did not do this. I cannot log in and my card is saved there.", "category": "account_access", "urgency": "high", "needs_human": true}
+{"id": "T127", "message": "Someone has logged into my account from another country and placed two orders using my saved card.", "category": "account_access", "urgency": "high", "needs_human": true}
+{"id": "T128", "message": "When I open my profile I see another customer's name, address and phone number.", "category": "account_access", "urgency": "high", "needs_human": true}
+{"id": "T129", "message": "I received a login code that I never asked for, three times in one hour.", "category": "account_access", "urgency": "high", "needs_human": true}
+{"id": "T130", "message": "My account was hacked and the hacker changed my delivery address. An order of RM3,000 is about to ship. Stop it now!", "category": "account_access", "urgency": "high", "needs_human": true}
+{"id": "T131", "message": "Akaun saya kena hack! Ada orang order barang guna kad saya.", "category": "account_access", "urgency": "high", "needs_human": true}
+{"id": "T132", "message": "What are your customer service hours?", "category": "general_enquiry", "urgency": "low", "needs_human": false}
+{"id": "T133", "message": "Do you have a shop in Penang or is it online only?", "category": "general_enquiry", "urgency": "low", "needs_human": false}
+{"id": "T134", "message": "Is the 55-inch TV in stock? The page says few left.", "category": "general_enquiry", "urgency": "low", "needs_human": false}
+{"id": "T135", "message": "What is the warranty period for the air fryer?", "category": "general_enquiry", "urgency": "low", "needs_human": false}
+{"id": "T136", "message": "Do you sell refurbished laptops?", "category": "general_enquiry", "urgency": "low", "needs_human": false}
+{"id": "T137", "message": "Can I place a bulk order of 50 office chairs? Do you give a discount?", "category": "general_enquiry", "urgency": "low", "needs_human": false}
+{"id": "T138", "message": "Is there a student discount?", "category": "general_enquiry", "urgency": "low", "needs_human": false}
+{"id": "T139", "message": "When is the next sale?", "category": "general_enquiry", "urgency": "low", "needs_human": false}
+{"id": "T140", "message": "Do you ship to Singapore?", "category": "general_enquiry", "urgency": "low", "needs_human": false}
+{"id": "T141", "message": "I want to give feedback: the new app is easier to use. Thanks!", "category": "general_enquiry", "urgency": "low", "needs_human": false}
+{"id": "T142", "message": "Do you have an affiliate or reseller programme?", "category": "general_enquiry", "urgency": "low", "needs_human": false}
+{"id": "T143", "message": "What size is the large storage box? The page only shows cm and I need litres.", "category": "general_enquiry", "urgency": "low", "needs_human": false}
+{"id": "T144", "message": "Korang ada buka kedai kat Johor Bahru tak?", "category": "general_enquiry", "urgency": "low", "needs_human": false}
+{"id": "T145", "message": "Ada diskaun untuk student tak?", "category": "general_enquiry", "urgency": "low", "needs_human": false}
+{"id": "T146", "message": "Bila sale seterusnya? Nak tunggu je.", "category": "general_enquiry", "urgency": "low", "needs_human": false}
+{"id": "T147", "message": "Your page says in stock, but at checkout it says sold out. This keeps happening.", "category": "general_enquiry", "urgency": "medium", "needs_human": false}
+{"id": "T148", "message": "I called your hotline for an hour and no one picked up. I need to speak to someone about a quote.", "category": "general_enquiry", "urgency": "medium", "needs_human": false}
+{"id": "T149", "message": "The website shows prices in USD on my phone. Is that a bug?", "category": "general_enquiry", "urgency": "medium", "needs_human": false}
+{"id": "T150", "message": "I have a complaint about a staff member in your store but I cannot find where to send it.", "category": "general_enquiry", "urgency": "medium", "needs_human": false}
+{"id": "T151", "message": "I wrote to you twice about a bulk quote for my company and heard nothing.", "category": "general_enquiry", "urgency": "medium", "needs_human": true}
+{"id": "T152", "message": "The hotline number on your website is not connecting. Is there another number?", "category": "general_enquiry", "urgency": "medium", "needs_human": false}
+{"id": "T153", "message": "Website tunjuk harga lain bila checkout. Ni bug ke?", "category": "general_enquiry", "urgency": "medium", "needs_human": false}
+{"id": "T154", "message": "A person pretending to be from your company phoned me asking for my OTP. Is this a scam? I did not give it.", "category": "general_enquiry", "urgency": "high", "needs_human": true}
+{"id": "T155", "message": "I received a message from a number that says it is your company and asks me to pay a customs fee by transfer. Is this real?", "category": "general_enquiry", "urgency": "high", "needs_human": true}
+{"id": "T156", "message": "I am from a news outlet and we are writing about complaints against online shops. Who can comment?", "category": "general_enquiry", "urgency": "high", "needs_human": true}
+{"id": "T157", "message": "An enforcement officer from the ministry wants to speak to someone about a complaint filed against your shop. Who should I call?", "category": "general_enquiry", "urgency": "high", "needs_human": true}

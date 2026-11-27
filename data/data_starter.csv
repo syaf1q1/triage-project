@@ -1,0 +1,51 @@
+﻿id,message,category,urgency,needs_human
+S001,What is the cut-off time for same-day delivery in the Klang Valley?,delivery,low,FALSE
+S002,Can I track my order without logging in?,delivery,low,FALSE
+S003,Boleh tukar masa delivery ke waktu petang tak?,delivery,low,FALSE
+S004,The tracking number you sent shows not found on the courier website.,delivery,medium,FALSE
+S005,I ordered a bed frame and only the headboard arrived. The rest is missing.,delivery,medium,FALSE
+S006,"Courier hantar parcel saya ke rumah jiran, bukan alamat saya. Boleh tak suruh dia hantar betul-betul?",delivery,medium,FALSE
+S007,I have emailed twice about my parcel that never came and the chat keeps sending me to the same FAQ page.,delivery,medium,TRUE
+S008,"The suit I ordered for my wedding the day after tomorrow was meant to arrive today, and tracking still says it has not left the warehouse.",delivery,high,TRUE
+S009,The tracking shows my parcel was signed for at a mailbox store I have never heard of. I did not choose that address and I want this investigated.,delivery,high,TRUE
+S010,Is the return window 7 days or 14 days for electronics?,refund_return,low,FALSE
+S011,"Can I return one item from an order of three, or must I return all of them?",refund_return,low,FALSE
+S012,Please cancel my order OS-31502 before it ships.,refund_return,low,FALSE
+S013,Macam mana nak tukar barang yang saya dah beli minggu lepas?,refund_return,low,FALSE
+S014,The return label you emailed gives an error when I try to print it.,refund_return,medium,FALSE
+S015,My refund came to my e-wallet as RM120 but I paid RM150 including shipping. Is shipping not refunded?,refund_return,medium,FALSE
+S016,It is 20 days since your shop received my returned monitor and the refund has not come.,refund_return,medium,TRUE
+S017,I have asked three times where my RM260 refund is. Each time I get a different answer.,refund_return,medium,TRUE
+S018,The refund for the broken wheelchair part is still unpaid and I need the money to rent a replacement this week. I will lodge a complaint with the tribunal.,refund_return,high,TRUE
+S019,The remote for my fan has one button that is slightly stiff. Is there anything I can do?,product_fault,low,FALSE
+S020,The red light on my air purifier keeps blinking after I changed the filter. Is that a fault?,product_fault,low,FALSE
+S021,The microwave turns but does not heat. Bought it 6 weeks ago.,product_fault,medium,FALSE
+S022,One of the speakers I received has a crackling sound at any volume.,product_fault,medium,FALSE
+S023,"Mesin basuh saya bunyi kuat sangat masa spin, baru beli bulan lepas.",product_fault,medium,FALSE
+S024,The laptop hinge cracked. I have reported it twice by email and no one has replied.,product_fault,medium,TRUE
+S025,The rice cooker plug sparked and left a black mark on the wall socket.,product_fault,high,TRUE
+S026,My toddler cut her finger on a sharp edge of the plastic toy from the box. It is bleeding quite a bit and I need to know if this toy was recalled.,product_fault,high,TRUE
+S027,Can I use two vouchers on the same order?,payment_billing,low,FALSE
+S028,Do you accept e-wallets?,payment_billing,low,FALSE
+S029,Can you send me a copy of the invoice for order OS-29310?,payment_billing,low,FALSE
+S030,The discount in my basket disappeared when I picked bank transfer. Is that right?,payment_billing,medium,FALSE
+S031,I was charged a RM15 handling fee that I did not see before paying.,payment_billing,medium,FALSE
+S032,You charged my card again for a subscription I cancelled. I have written about it twice and the charge came back a third time.,payment_billing,medium,TRUE
+S033,"There are charges from your shop on my card at 3 am last night for RM1,800 and I did not buy anything. My card may be stolen.",payment_billing,high,TRUE
+S034,Duit saya dah kena potong RM650 tapi order saya tak muncul dalam akaun. Tolong tengok cepat.,payment_billing,high,TRUE
+S035,How do I change my display name?,account_access,low,FALSE
+S036,Can I use the same account in the app and on the website?,account_access,low,FALSE
+S037,Macam mana nak tukar bahasa dalam app?,account_access,low,FALSE
+S038,The password reset link says it has expired as soon as I open it.,account_access,medium,FALSE
+S039,I get something went wrong every time I try to add a new address.,account_access,medium,FALSE
+S040,I have asked you twice to unlock my account and it is still locked.,account_access,medium,TRUE
+S041,"I got a notification that my email address was changed to one I do not know, and now my saved card shows a new purchase.",account_access,high,TRUE
+S042,Ada orang tunjuk screenshot akaun saya yang ada nama dan alamat penuh saya. Macam mana dia boleh dapat?,account_access,high,TRUE
+S043,Do you have a size guide for the running shoes?,general_enquiry,low,FALSE
+S044,Is the standing desk available in white?,general_enquiry,low,FALSE
+S045,Do you offer gift wrapping?,general_enquiry,low,FALSE
+S046,Berapa lama warranty untuk TV tu?,general_enquiry,low,FALSE
+S047,Where can I find the terms and conditions for the loyalty programme?,general_enquiry,low,FALSE
+S048,The live chat button on your website does nothing when I click it.,general_enquiry,medium,FALSE
+S049,I got a text saying I won a prize from your shop and must pay RM50 to claim it. Is this really from you?,general_enquiry,high,TRUE
+S050,Our newspaper is working on a story about online shop refunds and would like a comment from your company.,general_enquiry,high,TRUE
